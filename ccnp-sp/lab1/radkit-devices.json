@@ -1,72 +1,72 @@
 [
   {
-   "name": "IPS1-R1",
-   "host": "172.31.0.101",
-   "deviceType": "IOS_XR",
-   "labels": [],
-   "enabled": true,
-   "jumphostUuid": "29e00281-aa54-4f9a-976b-322225f25fc9",
-   "terminal": {
-     "port": 22,
-     "connectionMethod": "SSH",
-     "username": "cisco",
-     "password": "cisco"
-   }
+    "name": "IPS1-R1",
+    "host": "172.31.0.101",
+    "deviceType": "IOS_XR",
+    "labels": [],
+    "enabled": true,
+    "jumphostUuid": "29e00281-aa54-4f9a-976b-322225f25fc9",
+    "terminal": {
+      "port": 22,
+      "connectionMethod": "SSH",
+      "username": "cisco",
+      "password": "cisco"
+    }
   },
   {
-   "name": "IPS1-R2",
-   "host": "172.31.0.102",
-   "deviceType": "IOS_XR",
-   "labels": [],
-   "enabled": true,
-   "jumphostUuid": "29e00281-aa54-4f9a-976b-322225f25fc9",
-   "terminal": {
-     "port": 22,
-     "connectionMethod": "SSH",
-     "username": "cisco",
-     "password": "cisco"
-   }
+    "name": "IPS1-R2",
+    "host": "172.31.0.102",
+    "deviceType": "IOS_XR",
+    "labels": [],
+    "enabled": true,
+    "jumphostUuid": "29e00281-aa54-4f9a-976b-322225f25fc9",
+    "terminal": {
+      "port": 22,
+      "connectionMethod": "SSH",
+      "username": "cisco",
+      "password": "cisco"
+    }
   },
   {
-   "name": "IPS1-R3",
-   "host": "172.31.0.103",
-   "deviceType": "IOS_XR",
-   "labels": [],
-   "enabled": true,
-   "jumphostUuid": "29e00281-aa54-4f9a-976b-322225f25fc9",
-   "terminal": {
-     "port": 22,
-     "connectionMethod": "SSH",
-     "username": "cisco",
-     "password": "cisco"
-   }
+    "name": "IPS1-R3",
+    "host": "172.31.0.103",
+    "deviceType": "IOS_XR",
+    "labels": [],
+    "enabled": true,
+    "jumphostUuid": "29e00281-aa54-4f9a-976b-322225f25fc9",
+    "terminal": {
+      "port": 22,
+      "connectionMethod": "SSH",
+      "username": "cisco",
+      "password": "cisco"
+    }
   },
   {
-   "name": "IPS1-R4",
-   "host": "172.31.0.104",
-   "deviceType": "IOS_XR",
-   "labels": [],
-   "enabled": true,
-   "jumphostUuid": "29e00281-aa54-4f9a-976b-322225f25fc9",
-   "terminal": {
-     "port": 22,
-     "connectionMethod": "SSH",
-     "username": "cisco",
-     "password": "cisco"
-   }
+    "name": "IPS1-R4",
+    "host": "172.31.0.104",
+    "deviceType": "IOS_XR",
+    "labels": [],
+    "enabled": true,
+    "jumphostUuid": "29e00281-aa54-4f9a-976b-322225f25fc9",
+    "terminal": {
+      "port": 22,
+      "connectionMethod": "SSH",
+      "username": "cisco",
+      "password": "cisco"
+    }
   },
   {
-   "name": "IPS1-RR",
-   "host": "172.31.0.105",
-   "deviceType": "IOS_XR",
-   "labels": [],
-   "enabled": true,
-   "jumphostUuid": "29e00281-aa54-4f9a-976b-322225f25fc9",
-   "terminal": {
-     "port": 22,
-     "connectionMethod": "SSH",
-     "username": "cisco",
-     "password": "cisco"
-   }
+    "name": "IPS1-RR",
+    "host": "172.31.0.105",
+    "deviceType": "IOS_XR",
+    "labels": [],
+    "enabled": true,
+    "jumphostUuid": "29e00281-aa54-4f9a-976b-322225f25fc9",
+    "terminal": {
+      "port": 22,
+      "connectionMethod": "SSH",
+      "username": "cisco",
+      "password": "cisco"
+    }
   }
 ]
