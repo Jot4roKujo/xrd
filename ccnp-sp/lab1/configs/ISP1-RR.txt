@@ -1,0 +1,55 @@
+hostname ISP1-RR
+username cisco
+ group root-lr
+ group cisco-support
+ secret 5 $1$RC8d$2eeX3Aox1YZo5UAYUyfRV0
+!
+vrf mgmt
+ address-family ipv4 unicast
+ !
+!
+line default
+ transport input ssh
+!
+call-home
+ service active
+ contact smart-licensing
+ profile CiscoTAC-1
+  active
+  destination transport-method email disable
+  destination transport-method http
+ !
+!
+netconf-yang agent
+ ssh
+!
+interface Loopback0
+ ipv4 address 172.16.0.5 255.255.255.255
+ ipv6 address 2001:100::5/128
+!
+interface MgmtEth0/RP0/CPU0/0
+ vrf mgmt
+ ipv4 address 172.31.0.105 255.255.255.0
+!
+interface GigabitEthernet0/0/0/0
+!
+interface GigabitEthernet0/0/0/1
+!
+interface GigabitEthernet0/0/0/2
+!
+interface GigabitEthernet0/0/0/3
+!
+interface GigabitEthernet0/0/0/4
+!
+router static
+ vrf mgmt
+  address-family ipv4 unicast
+   0.0.0.0/0 MgmtEth0/RP0/CPU0/0 172.31.0.1
+  !
+ !
+!
+ssh server v2
+ssh server vrf mgmt
+ssh server netconf vrf mgmt
+ssh server netconf vrf default
+end
