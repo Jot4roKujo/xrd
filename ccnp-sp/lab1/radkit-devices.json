@@ -1,6 +1,6 @@
 [
   {
-    "name": "IPS1-R1",
+    "name": "isp-r1",
     "host": "172.31.0.101",
     "deviceType": "IOS_XR",
     "labels": [],
@@ -14,7 +14,7 @@
     }
   },
   {
-    "name": "IPS1-R2",
+    "name": "isp-r2",
     "host": "172.31.0.102",
     "deviceType": "IOS_XR",
     "labels": [],
@@ -28,7 +28,7 @@
     }
   },
   {
-    "name": "IPS1-R3",
+    "name": "isp-r3",
     "host": "172.31.0.103",
     "deviceType": "IOS_XR",
     "labels": [],
@@ -42,7 +42,7 @@
     }
   },
   {
-    "name": "IPS1-R4",
+    "name": "isp-r4",
     "host": "172.31.0.104",
     "deviceType": "IOS_XR",
     "labels": [],
@@ -56,7 +56,7 @@
     }
   },
   {
-    "name": "IPS1-RR",
+    "name": "isp-rr",
     "host": "172.31.0.105",
     "deviceType": "IOS_XR",
     "labels": [],
