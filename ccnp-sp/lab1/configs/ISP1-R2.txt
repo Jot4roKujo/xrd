@@ -1,4 +1,4 @@
-hostname ISP1-R1
+hostname ISP1-R2
 username cisco
  group root-lr
  group cisco-support
@@ -24,12 +24,12 @@ netconf-yang agent
  ssh
 !
 interface Loopback0
- ipv4 address 172.16.0.1 255.255.255.255
- ipv6 address 2001:100::1/128
+ ipv4 address 172.16.0.2 255.255.255.255
+ ipv6 address 2001:100::2/128
 !
 interface MgmtEth0/RP0/CPU0/0
  vrf mgmt
- ipv4 address 172.31.0.101 255.255.255.0
+ ipv4 address 172.31.0.102 255.255.255.0
 !
 interface GigabitEthernet0/0/0/0
 !
