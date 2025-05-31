@@ -77,3 +77,6 @@ topology:
     - endpoints: [ISP1-R4:Gi0-0-0-4, ISP3:Gi0-0-0-4]
     
     - endpoints: [ISP3:Gi0-0-0-0, R4-Ironman:Gi0-0-0-0]
+    
+    - endpoints: [ISP1-R3:Gi0-0-0-7, macvlan:ens3]
+    - endpoints: [R4-Ironman:Gi0-0-0-2, macvlan:ens4]
