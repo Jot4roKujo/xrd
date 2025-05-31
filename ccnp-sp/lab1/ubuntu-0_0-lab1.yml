@@ -35,47 +35,45 @@ topology:
     R7-Ironman:
       kind: xrd
       mgmt-ipv4: 172.31.0.106
-      startup-config: last-config-ccnp/clab-xrd-lab1-edge-5.txt
+      startup-config: configs/R7-Ironman.txt
     R1-Hawkeye:
       kind: xrd
       mgmt-ipv4: 172.31.0.107
-      startup-config: last-config-ccnp/clab-xrd-lab1-edge-6.txt
+      startup-config: configs/R1-Hawkeye.txt
     R9-Hulk:
       kind: xrd
       mgmt-ipv4: 172.31.0.108
-      startup-config: last-config-ccnp/clab-xrd-lab1-edge-7.txt
+      startup-config: configs/R9-Hulk.txt
     R11-Hulk:
       kind: xrd
       mgmt-ipv4: 172.31.0.109
-      startup-config: last-config-ccnp/clab-xrd-lab1-edge-8.txt
+      startup-config: configs/R11-Hulk.txt
     ISP3:
       kind: xrd
       mgmt-ipv4: 172.31.0.110
-      startup-config: last-config-ccnp/clab-xrd-lab1-dc-10.txt
+      startup-config: configs/ISP3.txt
     R4-Ironman:
       kind: xrd
       mgmt-ipv4: 172.31.0.111
-      startup-config: last-config-ccnp/clab-xrd-lab1-dc-11.txt
+      startup-config: configs/R4-Ironman.txt
 
 
   links:
     - endpoints: [IPS1-R1:Gi0-0-0-5, IPS1-R3:Gi0-0-0-5]
     - endpoints: [ISP1-R1:Gi0-0-0-6, ISP1-RR:Gi0-0-0-6]
     - endpoints: [ISP1-R1:Gi0-0-0-7, ISP1-R2:Gi0-0-0-7]
+    - endpoints: [ISP1-R1:Gi0-0-0-0, R7-Ironman:Gi0-0-0-0]
 
     - endpoints: [ISP1-R2:Gi0-0-0-5, ISP1-RR:Gi0-0-0-5]
     - endpoints: [ISP1-R2:Gi0-0-0-6, ISP1-R4:Gi0-0-0-6]
-    - endpoints: [ISP1-R2:Gi0-0-0-7, ISP1-R1:Gi0-0-0-7]
+    - endpoints: [ISP1-R2:Gi0-0-0-1, R7-Hawkeye:Gi0-0-0-1]
+    - endpoints: [ISP1-R2:Gi0-0-0-2, R11-Hulk:Gi0-0-0-2]
+    - endpoints: [ISP1-R2:Gi0-0-0-3, R9-Hulk:Gi0-0-0-3]
 
     - endpoints: [ISP1-R3:Gi0-0-0-3, ISP1-R4:Gi0-0-0-3]
     - endpoints: [ISP1-R3:Gi0-0-0-4, ISP1-RR:Gi0-0-0-4]
-    - endpoints: [ISP1-R3:Gi0-0-0-5, ISP1-R1:Gi0-0-0-5]
 
-    - endpoints: [ISP1-R4:Gi0-0-0-3, ISP1-R3:Gi0-0-0-3]
-    - endpoints: [ISP1-R4:Gi0-0-0-6, ISP1-R2:Gi0-0-0-6]
     - endpoints: [ISP1-R4:Gi0-0-0-7, ISP1-RR:Gi0-0-0-7]
-
-    - endpoints: [ISP1-RR:Gi0-0-0-4, ISP1-R3:Gi0-0-0-4]
-    - endpoints: [ISP1-RR:Gi0-0-0-5, ISP1-R2:Gi0-0-0-5]
-    - endpoints: [ISP1-RR:Gi0-0-0-6, ISP1-R1:Gi0-0-0-6]
-    - endpoints: [ISP1-RR:Gi0-0-0-7, ISP1-R4:Gi0-0-0-7]
+    - endpoints: [ISP1-R4:Gi0-0-0-4, ISP3:Gi0-0-0-4]
+    
+    - endpoints: [ISP3:Gi0-0-0-0, R4-Ironman:Gi0-0-0-0]
