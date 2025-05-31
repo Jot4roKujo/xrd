@@ -15,7 +15,7 @@ topology:
     IPS1-R1:
       kind: xrd
       mgmt-ipv4: 172.31.0.101
-      startup-config: last-config-ccnp/clab-xrd-lab1-core-1.txt
+      startup-config: configs/IPS1-R1.txt
     ISP1-R2:
       kind: xrd
       mgmt-ipv4: 172.31.0.102
