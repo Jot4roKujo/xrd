@@ -20,7 +20,7 @@ topology:
       kind: xrd
       mgmt-ipv4: 172.31.0.102
       startup-config: configs/ISP1-R2.txt
-    IPS1-R3:ISP1
+    IPS1-R3:
       kind: xrd
       mgmt-ipv4: 172.31.0.103
       startup-config: configs/ISP1-R3.txt
