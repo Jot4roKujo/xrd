@@ -1,4 +1,4 @@
-hostname ISP1-R4
+hostname isp-r4
 username cisco
  group root-lr
  group cisco-support
