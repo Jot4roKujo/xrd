@@ -1,4 +1,4 @@
-hostname R11-Hulk
+hostname R9-Hulk
 username cisco
  group root-lr
  group cisco-support
@@ -24,12 +24,12 @@ netconf-yang agent
  ssh
 !
 interface Loopback0
- ipv4 address 172.16.0.9 255.255.255.255
- ipv6 address 2001:100::9/128
+ ipv4 address 172.16.0.8 255.255.255.255
+ ipv6 address 2001:100::8/128
 !
 interface MgmtEth0/RP0/CPU0/0
  vrf mgmt
- ipv4 address 172.31.0.109 255.255.255.0
+ ipv4 address 172.31.0.108 255.255.255.0
 !
 interface GigabitEthernet0/0/0/0
 !

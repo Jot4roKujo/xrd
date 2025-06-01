@@ -12,47 +12,47 @@ topology:
       image: ${XRD_IMAGE:=ios-xr/xrd-control-plane}:${XRD_VERSION:=25.1.1}
 
   nodes:
-    IPS1-R1:
+    isp1-r1:
       kind: xrd
       mgmt-ipv4: 172.31.0.101
       startup-config: configs/isp1-r1.txt
-    ISP1-R2:
+    isp1-r2:
       kind: xrd
       mgmt-ipv4: 172.31.0.102
       startup-config: configs/isp1-r2.txt
-    IPS1-R3:
+    isp1-r3:
       kind: xrd
       mgmt-ipv4: 172.31.0.103
       startup-config: configs/isp1-r3.txt
-    IPS1-R4:
+    isp1-r4:
       kind: xrd
       mgmt-ipv4: 172.31.0.104
       startup-config: configs/isp1-r4.txt
-    IPS1-RR:
+    isp1-rr:
       kind: xrd
       mgmt-ipv4: 172.31.0.105
       startup-config: configs/isp1-rr.txt
-    R7-Ironman:
+    r6-ironman:
       kind: xrd
       mgmt-ipv4: 172.31.0.106
       startup-config: configs/r7-ironman.txt
-    R1-Hawkeye:
+    r7-hawkeye:
       kind: xrd
       mgmt-ipv4: 172.31.0.107
       startup-config: configs/r1-hawkeye.txt
-    R9-Hulk:
+    r8-hulk:
       kind: xrd
       mgmt-ipv4: 172.31.0.108
       startup-config: configs/r9-hulk.txt
-    R11-Hulk:
+    r9-hulk:
       kind: xrd
       mgmt-ipv4: 172.31.0.109
       startup-config: configs/r11-hulk.txt
-    ISP3:
+    isp3-r10:
       kind: xrd
       mgmt-ipv4: 172.31.0.110
       startup-config: configs/isp3.txt
-    R4-Ironman:
+    r11-ironman:
       kind: xrd
       mgmt-ipv4: 172.31.0.111
       startup-config: configs/r4-ironman.txt
@@ -62,21 +62,21 @@ topology:
     - endpoints: [isp1-r1:Gi0-0-0-5, isp1-r3:Gi0-0-0-5]
     - endpoints: [isp1-r1:Gi0-0-0-6, isp1-rr:Gi0-0-0-6]
     - endpoints: [isp1-r1:Gi0-0-0-7, isp1-r2:Gi0-0-0-7]
-    - endpoints: [isp1-r1:Gi0-0-0-0, r7-ironman:Gi0-0-0-0]
+    - endpoints: [isp1-r1:Gi0-0-0-0, r6-ironman:Gi0-0-0-0]
 
     - endpoints: [isp1-r2:Gi0-0-0-5, isp1-rr:Gi0-0-0-5]
     - endpoints: [isp1-r2:Gi0-0-0-6, isp1-r4:Gi0-0-0-6]
     - endpoints: [isp1-r2:Gi0-0-0-1, r7-hawkeye:Gi0-0-0-1]
-    - endpoints: [isp1-r2:Gi0-0-0-2, r11-hulk:Gi0-0-0-2]
+    - endpoints: [isp1-r2:Gi0-0-0-2, r8-hulk:Gi0-0-0-2]
     - endpoints: [isp1-r2:Gi0-0-0-3, r9-hulk:Gi0-0-0-3]
 
     - endpoints: [isp1-r3:Gi0-0-0-3, isp1-r4:Gi0-0-0-3]
     - endpoints: [isp1-r3:Gi0-0-0-4, isp1-rr:Gi0-0-0-4]
 
     - endpoints: [isp1-r4:Gi0-0-0-7, isp1-rr:Gi0-0-0-7]
-    - endpoints: [isp1-r4:Gi0-0-0-4, isp3:Gi0-0-0-4]
+    - endpoints: [isp1-r4:Gi0-0-0-4, isp3-r10:Gi0-0-0-4]
     
-    - endpoints: [isp3:Gi0-0-0-0, r4-ironman:Gi0-0-0-0]
+    - endpoints: [isp3-r10:Gi0-0-0-0, r11-ironman:Gi0-0-0-0]
     
     - endpoints: [isp1-r3:Gi0-0-0-7, macvlan:ens3]
-    - endpoints: [r4-ironman:Gi0-0-0-2, macvlan:ens4]
+    - endpoints: [r11-ironman:Gi0-0-0-2, macvlan:ens4]
