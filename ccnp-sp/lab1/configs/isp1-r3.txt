@@ -29,7 +29,7 @@ interface Loopback0
 !
 interface MgmtEth0/RP0/CPU0/0
  vrf mgmt
- ipv4 address 172.31.0.103 255.255.255.0
+ ipv4 address 192.168.255.103 255.255.255.0
 !
 interface GigabitEthernet0/0/0/3
  description to-r4
@@ -51,7 +51,7 @@ interface GigabitEthernet0/0/0/7
 router static
  vrf mgmt
   address-family ipv4 unicast
-   0.0.0.0/0 MgmtEth0/RP0/CPU0/0 172.31.0.1
+   0.0.0.0/0 MgmtEth0/RP0/CPU0/0 192.168.255.91
   !
  !
 !

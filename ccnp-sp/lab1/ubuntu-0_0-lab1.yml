@@ -2,7 +2,7 @@ name: lab1
 
 mgmt:
   network: lab1_mgmt
-  ipv4-subnet: 172.31.0.0/24
+  ipv4-subnet: 192.168.255.1/24
   external-access: false
 
 topology:
@@ -14,47 +14,47 @@ topology:
   nodes:
     isp1-r1:
       kind: xrd
-      mgmt-ipv4: 172.31.0.101
+      mgmt-ipv4: 192.168.255.101
       startup-config: configs/isp1-r1.txt
     isp1-r2:
       kind: xrd
-      mgmt-ipv4: 172.31.0.102
+      mgmt-ipv4: 192.168.255.102
       startup-config: configs/isp1-r2.txt
     isp1-r3:
       kind: xrd
-      mgmt-ipv4: 172.31.0.103
+      mgmt-ipv4: 192.168.255.103
       startup-config: configs/isp1-r3.txt
     isp1-r4:
       kind: xrd
-      mgmt-ipv4: 172.31.0.104
+      mgmt-ipv4: 192.168.255.104
       startup-config: configs/isp1-r4.txt
     isp1-rr:
       kind: xrd
-      mgmt-ipv4: 172.31.0.105
+      mgmt-ipv4: 192.168.255.105
       startup-config: configs/isp1-rr.txt
     r6-ironman:
       kind: xrd
-      mgmt-ipv4: 172.31.0.106
+      mgmt-ipv4: 192.168.255.106
       startup-config: configs/r6-ironman.txt
     r7-hawkeye:
       kind: xrd
-      mgmt-ipv4: 172.31.0.107
+      mgmt-ipv4: 192.168.255.107
       startup-config: configs/r7-hawkeye.txt
     r8-hulk:
       kind: xrd
-      mgmt-ipv4: 172.31.0.108
+      mgmt-ipv4: 192.168.255.108
       startup-config: configs/r8-hulk.txt
     r9-hulk:
       kind: xrd
-      mgmt-ipv4: 172.31.0.109
+      mgmt-ipv4: 192.168.255.109
       startup-config: configs/r9-hulk.txt
     isp3-r10:
       kind: xrd
-      mgmt-ipv4: 172.31.0.110
+      mgmt-ipv4: 192.168.255.110
       startup-config: configs/isp3-r10.txt
     r11-ironman:
       kind: xrd
-      mgmt-ipv4: 172.31.0.111
+      mgmt-ipv4: 192.168.255.111
       startup-config: configs/r11-ironman.txt
 
 
