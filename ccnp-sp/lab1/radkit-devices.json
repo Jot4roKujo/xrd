@@ -68,5 +68,89 @@
       "username": "cisco",
       "password": "cisco"
     }
+  },
+  {
+    "name": "r6-ironman",
+    "host": "172.31.0.106",
+    "deviceType": "IOS_XR",
+    "labels": [],
+    "enabled": true,
+    "jumphostUuid": "29e00281-aa54-4f9a-976b-322225f25fc9",
+    "terminal": {
+      "port": 22,
+      "connectionMethod": "SSH",
+      "username": "cisco",
+      "password": "cisco"
+    }
+  },
+  {
+    "name": "r7-hawkeye",
+    "host": "172.31.0.107",
+    "deviceType": "IOS_XR",
+    "labels": [],
+    "enabled": true,
+    "jumphostUuid": "29e00281-aa54-4f9a-976b-322225f25fc9",
+    "terminal": {
+      "port": 22,
+      "connectionMethod": "SSH",
+      "username": "cisco",
+      "password": "cisco"
+    }
+  },
+  {
+    "name": "r8-hulk",
+    "host": "172.31.0.108",
+    "deviceType": "IOS_XR",
+    "labels": [],
+    "enabled": true,
+    "jumphostUuid": "29e00281-aa54-4f9a-976b-322225f25fc9",
+    "terminal": {
+      "port": 22,
+      "connectionMethod": "SSH",
+      "username": "cisco",
+      "password": "cisco"
+    }
+  },
+  {
+    "name": "r9-hulk",
+    "host": "172.31.0.109",
+    "deviceType": "IOS_XR",
+    "labels": [],
+    "enabled": true,
+    "jumphostUuid": "29e00281-aa54-4f9a-976b-322225f25fc9",
+    "terminal": {
+      "port": 22,
+      "connectionMethod": "SSH",
+      "username": "cisco",
+      "password": "cisco"
+    }
+  },
+  {
+    "name": "isp3-r10",
+    "host": "172.31.0.110",
+    "deviceType": "IOS_XR",
+    "labels": [],
+    "enabled": true,
+    "jumphostUuid": "29e00281-aa54-4f9a-976b-322225f25fc9",
+    "terminal": {
+      "port": 22,
+      "connectionMethod": "SSH",
+      "username": "cisco",
+      "password": "cisco"
+    }
+  },
+  {
+    "name": "r11-ironman",
+    "host": "172.31.0.111",
+    "deviceType": "IOS_XR",
+    "labels": [],
+    "enabled": true,
+    "jumphostUuid": "29e00281-aa54-4f9a-976b-322225f25fc9",
+    "terminal": {
+      "port": 22,
+      "connectionMethod": "SSH",
+      "username": "cisco",
+      "password": "cisco"
+    }
   }
 ]
