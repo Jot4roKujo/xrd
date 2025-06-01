@@ -1,7 +1,7 @@
 [
   {
     "name": "isp1-r1",
-    "host": "172.31.0.101",
+    "host": "192.168.255.101",
     "deviceType": "IOS_XR",
     "labels": [],
     "enabled": true,
@@ -15,7 +15,7 @@
   },
   {
     "name": "isp1-r2",
-    "host": "172.31.0.102",
+    "host": "192.168.255.102",
     "deviceType": "IOS_XR",
     "labels": [],
     "enabled": true,
@@ -29,7 +29,7 @@
   },
   {
     "name": "isp1-r3",
-    "host": "172.31.0.103",
+    "host": "192.168.255.103",
     "deviceType": "IOS_XR",
     "labels": [],
     "enabled": true,
@@ -43,7 +43,7 @@
   },
   {
     "name": "isp1-r4",
-    "host": "172.31.0.104",
+    "host": "192.168.255.104",
     "deviceType": "IOS_XR",
     "labels": [],
     "enabled": true,
@@ -57,7 +57,7 @@
   },
   {
     "name": "isp1-rr",
-    "host": "172.31.0.105",
+    "host": "192.168.255.105",
     "deviceType": "IOS_XR",
     "labels": [],
     "enabled": true,
@@ -71,7 +71,7 @@
   },
   {
     "name": "r6-ironman",
-    "host": "172.31.0.106",
+    "host": "192.168.255.106",
     "deviceType": "IOS_XR",
     "labels": [],
     "enabled": true,
@@ -85,7 +85,7 @@
   },
   {
     "name": "r7-hawkeye",
-    "host": "172.31.0.107",
+    "host": "192.168.255.107",
     "deviceType": "IOS_XR",
     "labels": [],
     "enabled": true,
@@ -99,7 +99,7 @@
   },
   {
     "name": "r8-hulk",
-    "host": "172.31.0.108",
+    "host": "192.168.255.108",
     "deviceType": "IOS_XR",
     "labels": [],
     "enabled": true,
@@ -113,7 +113,7 @@
   },
   {
     "name": "r9-hulk",
-    "host": "172.31.0.109",
+    "host": "192.168.255.109",
     "deviceType": "IOS_XR",
     "labels": [],
     "enabled": true,
@@ -127,7 +127,7 @@
   },
   {
     "name": "isp3-r10",
-    "host": "172.31.0.110",
+    "host": "192.168.255.110",
     "deviceType": "IOS_XR",
     "labels": [],
     "enabled": true,
@@ -141,7 +141,7 @@
   },
   {
     "name": "r11-ironman",
-    "host": "172.31.0.111",
+    "host": "192.168.255.111",
     "deviceType": "IOS_XR",
     "labels": [],
     "enabled": true,
