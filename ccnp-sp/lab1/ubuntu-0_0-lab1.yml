@@ -35,27 +35,27 @@ topology:
     r6-ironman:
       kind: xrd
       mgmt-ipv4: 172.31.0.106
-      startup-config: configs/r7-ironman.txt
+      startup-config: configs/r6-ironman.txt
     r7-hawkeye:
       kind: xrd
       mgmt-ipv4: 172.31.0.107
-      startup-config: configs/r1-hawkeye.txt
+      startup-config: configs/r7-hawkeye.txt
     r8-hulk:
       kind: xrd
       mgmt-ipv4: 172.31.0.108
-      startup-config: configs/r9-hulk.txt
+      startup-config: configs/r8-hulk.txt
     r9-hulk:
       kind: xrd
       mgmt-ipv4: 172.31.0.109
-      startup-config: configs/r11-hulk.txt
+      startup-config: configs/r9-hulk.txt
     isp3-r10:
       kind: xrd
       mgmt-ipv4: 172.31.0.110
-      startup-config: configs/isp3.txt
+      startup-config: configs/isp3-r10.txt
     r11-ironman:
       kind: xrd
       mgmt-ipv4: 172.31.0.111
-      startup-config: configs/r4-ironman.txt
+      startup-config: configs/r11-ironman.txt
 
 
   links:
