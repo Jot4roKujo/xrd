@@ -2,7 +2,7 @@ name: lab1
 
 mgmt:
   network: lab1_mgmt
-  ipv4-subnet: 192.168.255.1/24
+  ipv4-subnet: 192.168.255.0/24
   external-access: false
 
 topology:
