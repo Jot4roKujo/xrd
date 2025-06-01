@@ -1,4 +1,4 @@
-hostname ISP1-R1
+hostname isp-r1
 username cisco
  group root-lr
  group cisco-support
@@ -32,14 +32,20 @@ interface MgmtEth0/RP0/CPU0/0
  ipv4 address 172.31.0.101 255.255.255.0
 !
 interface GigabitEthernet0/0/0/0
+ description to-r6
+ ipv4 address 10.10.16.1 255.255.255.0
 !
-interface GigabitEthernet0/0/0/1
+interface GigabitEthernet0/0/0/5
+ description to-r3
+ ipv4 address 10.10.13.1 255.255.255.0
 !
-interface GigabitEthernet0/0/0/2
+interface GigabitEthernet0/0/0/6
+ description to-rr
+ ipv4 address 10.10.15.1 255.255.255.0
 !
-interface GigabitEthernet0/0/0/3
-!
-interface GigabitEthernet0/0/0/4
+interface GigabitEthernet0/0/0/7
+ description to-r2
+ ipv4 address 10.10.12.1 255.255.255.0
 !
 router static
  vrf mgmt

@@ -31,15 +31,21 @@ interface MgmtEth0/RP0/CPU0/0
  vrf mgmt
  ipv4 address 172.31.0.104 255.255.255.0
 !
-interface GigabitEthernet0/0/0/0
-!
-interface GigabitEthernet0/0/0/1
-!
-interface GigabitEthernet0/0/0/2
-!
 interface GigabitEthernet0/0/0/3
+ description to-r3
+ ipv4 address 10.10.34.4 255.255.255.0
 !
 interface GigabitEthernet0/0/0/4
+ description to-ips3-r10
+ ipv4 address 10.10.41.4 255.255.255.0
+!
+interface GigabitEthernet0/0/0/6
+ description to-r2
+ ipv4 address 10.10.24.4 255.255.255.0
+!
+interface GigabitEthernet0/0/0/7
+ description to-rr
+ ipv4 address 10.10.45.4 255.255.255.0
 !
 router static
  vrf mgmt
